@@ -1,0 +1,30 @@
+{
+  "name": "window",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.3.0",
+    "browser-sync": "^2.27.11",
+    "core-js": "^3.28.0",
+    "gulp": "^4.0.2",
+    "webpack": "^4.46.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "16": "^0.0.2"
+  }
+}
